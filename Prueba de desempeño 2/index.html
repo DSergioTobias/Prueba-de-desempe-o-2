@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fusión Gourmet – Festival Gastronómico de Vanguardia</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ========== HEADER ========== -->
+  <header id="header">
+    <nav class="nav-container">
+      <div class="logo">
+        <span class="logo-symbol">✦</span>
+        <span class="logo-text">Fusión <em>Gourmet</em></span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#hero">Inicio</a></li>
+        <li><a href="#horarios">Horarios</a></li>
+        <li><a href="#chefs">Chefs</a></li>
+        <li><a href="#festival">Festival</a></li>
+        <li><a href="#galeria">Galería</a></li>
+        <li><a href="#contacto" class="nav-cta">Reservar</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ========== SECCIÓN PRINCIPAL / HERO ========== -->
+    <section id="hero" class="hero">
+      <div class="hero-bg-overlay"></div>
+      <div class="hero-content">
+        <p class="hero-label">8 – 12 de Octubre · Barranquilla, Colombia</p>
+        <h1 class="hero-title">
+          Donde el sabor<br/><em>se convierte en arte</em>
+        </h1>
+        <p class="hero-subtitle">
+          Una experiencia culinaria única que reúne a los chefs más innovadores,
+          productores locales y amantes de la alta cocina en un festival sin precedentes.
+        </p>
+        <div class="hero-actions">
+          <a href="#horarios" class="btn btn-primary">Explorar Experiencias</a>
+          <a href="#festival" class="btn btn-ghost">Conoce el Festival</a>
+        </div>
+      </div>
+      <div class="hero-scroll-hint">
+        <span>Descubrir</span>
+        <div class="scroll-line"></div>
+      </div>
+    </section>
+
+    <!-- ========== SECCIÓN HORARIOS / EVENTOS ========== -->
+    <section id="horarios" class="horarios">
+      <div class="section-header">
+        <p class="section-label">Programación</p>
+        <h2 class="section-title">Agenda del Festival</h2>
+        <p class="section-subtitle">Cinco días de experiencias gastronómicas diseñadas para despertar todos los sentidos.</p>
+      </div>
+
+      <!-- Tabla de horarios completa (Punto extra) -->
+      <div class="table-wrapper">
+        <table class="schedule-table">
+          <caption>Horario Completo de Catas y Chefs — Fusión Gourmet 2025</caption>
+          <thead>
+            <tr>
+              <th scope="col">Fecha</th>
+              <th scope="col">Hora</th>
+              <th scope="col">Experiencia</th>
+              <th scope="col">Chef / Maestro</th>
+              <th scope="col">Sala</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td data-label="Fecha">Oct 8</td>
+              <td data-label="Hora">11:00 – 13:00</td>
+              <td data-label="Experiencia">Inauguración & Cóctel de Bienvenida</td>
+              <td data-label="Chef">Varios</td>
+              <td data-label="Sala">Terraza Principal</td>
+            </tr>
+            <tr>
+              <td data-label="Fecha">Oct 8</td>
+              <td data-label="Hora">16:00 – 18:30</td>
+              <td data-label="Experiencia">Taller: Fermentación y Umami Contemporáneo</td>
+              <td data-label="Chef">Sofía Restrepo</td>
+              <td data-label="Sala">Sala Cobre</td>
+            </tr>
+            <tr>
+              <td data-label="Fecha">Oct 9</td>
+              <td data-label="Hora">10:00 – 12:00</td>
+              <td data-label="Experiencia">Cata Maridaje: Vinos Naturales & Cocina de Mar</td>
+              <td data-label="Chef">Adrián Montiel</td>
+              <td data-label="Sala">Sala Ámbar</td>
+            </tr>
+            <tr>
+              <td data-label="Fecha">Oct 9</td>
+              <td data-label="Hora">15:00 – 17:00</td>
+              <td data-label="Experiencia">Masterclass: Técnicas de Cocina Molecular</td>
+              <td data-label="Chef">Valentina Cruz</td>
+              <td data-label="Sala">Laboratorio Gourmet</td>
+            </tr>
+            <tr>
+              <td data-label="Fecha">Oct 10</td>
+              <td data-label="Hora">11:30 – 14:00</td>
+              <td data-label="Experiencia">Menú Degustación: Raíces y Vanguardia</td>
+              <td data-label="Chef">Mateo Villanueva</td>
+              <td data-label="Sala">Comedor de Honor</td>
+            </tr>
+            <tr>
+              <td data-label="Fecha">Oct 10</td>
+              <td data-label="Hora">17:00 – 19:30</td>
+              <td data-label="Experiencia">Taller Infantil: Pequeños Chefs</td>
+              <td data-label="Chef">Ana Lucia Pérez</td>
+              <td data-label="Sala">Cocina Taller</td>
+            </tr>
+            <tr>
+              <td data-label="Fecha">Oct 11</td>
+              <td data-label="Hora">10:00 – 13:00</td>
+              <td data-label="Experiencia">Feria de Productores & Mercado Gourmet</td>
+              <td data-label="Chef">Colectivo Local</td>
+              <td data-label="Sala">Plaza Central</td>
+            </tr>
+            <tr>
+              <td data-label="Fecha">Oct 11</td>
+              <td data-label="Hora">20:00 – 23:00</td>
+              <td data-label="Experiencia">Cena de Gala: Mesa del Chef</td>
+              <td data-label="Chef">Sofía Restrepo & Adrián Montiel</td>
+              <td data-label="Sala">Salón Gran Reserva</td>
+            </tr>
+            <tr>
+              <td data-label="Fecha">Oct 12</td>
+              <td data-label="Hora">12:00 – 15:00</td>
+              <td data-label="Experiencia">Clausura & Brunch de Cierre</td>
+              <td data-label="Chef">Todos los Chefs</td>
+              <td data-label="Sala">Terraza Principal</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td colspan="5">* Los horarios están sujetos a cambios. Consulta nuestra web para actualizaciones.</td>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
+
+      <!-- Cards de experiencias destacadas -->
+      <div class="events-grid">
+        <article class="event-card">
+          <div class="event-icon">◈</div>
+          <p class="event-day">Octubre 8 – 9</p>
+          <h3>Talleres Intensivos</h3>
+          <p>Aprende de los mejores. Talleres de fermentación, cocina molecular, maridaje y más, con cupos limitados para garantizar una experiencia personalizada.</p>
+          <a href="#horarios" class="card-link">Ver talleres →</a>
+        </article>
+        <article class="event-card event-card--featured">
+          <div class="event-icon">✦</div>
+          <p class="event-day">Octubre 11</p>
+          <h3>Cena de Gala</h3>
+          <p>Una noche extraordinaria. Los chefs invitados crean un menú degustación de 12 tiempos que es una obra de arte en cada plato. Plazas muy limitadas.</p>
+          <a href="#contacto" class="card-link">Reservar ahora →</a>
+        </article>
+        <article class="event-card">
+          <div class="event-icon">◇</div>
+          <p class="event-day">Octubre 10 – 12</p>
+          <h3>Mercado Gourmet</h3>
+          <p>Descubre productores artesanales, importadores seleccionados y tiendas especializadas en un mercado efímero de alta cocina con entrada libre.</p>
+          <a href="#festival" class="card-link">Conocer más →</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- ========== SECCIÓN CHEFS (Punto extra) ========== -->
+    <section id="chefs" class="chefs">
+      <div class="section-header section-header--dark">
+        <p class="section-label">Protagonistas</p>
+        <h2 class="section-title">Nuestros Chefs</h2>
+        <p class="section-subtitle">Un elenco internacional de cocineros que han redefinido la gastronomía contemporánea.</p>
+      </div>
+      <div class="chefs-grid">
+        <article class="chef-card">
+          <div class="chef-photo chef-photo--1">
+            <div class="chef-photo-overlay">
+              <p class="chef-restaurant">Casa Restrepo · Bogotá</p>
+            </div>
+          </div>
+          <div class="chef-info">
+            <h3>Sofía Restrepo</h3>
+            <p class="chef-title">Chef Ejecutiva & Directora Artística</p>
+            <p>Pionera de la nueva cocina colombiana, combina ingredientes ancestrales con técnicas de vanguardia. 2 estrellas Michelin, Premio Iberoamérica 2023.</p>
+          </div>
+        </article>
+        <article class="chef-card">
+          <div class="chef-photo chef-photo--2">
+            <div class="chef-photo-overlay">
+              <p class="chef-restaurant">Mar & Tierra · Cartagena</p>
+            </div>
+          </div>
+          <div class="chef-info">
+            <h3>Adrián Montiel</h3>
+            <p class="chef-title">Chef de Cocina de Mar</p>
+            <p>Especialista en producto marino del Caribe y el Pacífico. Sus platos son un poema al océano, reconocido como uno de los 50 mejores chefs de América Latina.</p>
+          </div>
+        </article>
+        <article class="chef-card">
+          <div class="chef-photo chef-photo--3">
+            <div class="chef-photo-overlay">
+              <p class="chef-restaurant">Lab Molecular · Medellín</p>
+            </div>
+          </div>
+          <div class="chef-info">
+            <h3>Valentina Cruz</h3>
+            <p class="chef-title">Chef & Científica Culinaria</p>
+            <p>Doctora en Gastronomía Molecular por el Institut Paul Bocuse. Sus creaciones desafían la percepción y reinventan la experiencia de comer.</p>
+          </div>
+        </article>
+        <article class="chef-card">
+          <div class="chef-photo chef-photo--4">
+            <div class="chef-photo-overlay">
+              <p class="chef-restaurant">Raíces · Cali</p>
+            </div>
+          </div>
+          <div class="chef-info">
+            <h3>Mateo Villanueva</h3>
+            <p class="chef-title">Chef & Investigador Cultural</p>
+            <p>Dedicado a rescatar recetas olvidadas de las cocinas regionales colombianas, las reinterpreta con una sensibilidad contemporánea sin igual.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ========== SECCIÓN SOBRE EL FESTIVAL ========== -->
+    <section id="festival" class="festival">
+      <div class="festival-grid">
+        <div class="festival-content">
+          <p class="section-label">Sobre Nosotros</p>
+          <h2 class="section-title">Más que un festival.<br/><em>Una filosofía.</em></h2>
+          <p class="festival-text">
+            Fusión Gourmet nació de la convicción de que la gastronomía es el lenguaje más universal y el arte más íntimo. Cada edición es una oportunidad para conectar cultura, territorio y creatividad alrededor de la mesa.
+          </p>
+          <p class="festival-text">
+            Reunimos a cocineros visionarios, productores comprometidos y comensales curiosos en un espacio donde la tradición y la innovación se abrazan para crear algo verdaderamente extraordinario.
+          </p>
+
+          <!-- Lista de filosofía / valores -->
+          <div class="values-block">
+            <p class="values-title">Nuestros Pilares</p>
+            <ul class="values-list">
+              <li>
+                <span class="value-icon">◈</span>
+                <div>
+                  <strong>Innovación sin fronteras</strong>
+                  <p>Celebramos la experimentación y la búsqueda de nuevos sabores, técnicas y experiencias culinarias.</p>
+                </div>
+              </li>
+              <li>
+                <span class="value-icon">◈</span>
+                <div>
+                  <strong>Sostenibilidad & Territorio</strong>
+                  <p>Priorizamos productos locales, de temporada y de productores que cuidan el medio ambiente.</p>
+                </div>
+              </li>
+              <li>
+                <span class="value-icon">◈</span>
+                <div>
+                  <strong>Diversidad e inclusión</strong>
+                  <p>La mesa es un lugar donde todas las culturas, tradiciones y sabores tienen cabida y son celebrados.</p>
+                </div>
+              </li>
+              <li>
+                <span class="value-icon">◈</span>
+                <div>
+                  <strong>Excelencia artesanal</strong>
+                  <p>Defendemos el trabajo manual, el tiempo y la dedicación como los ingredientes más valiosos de la cocina.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="festival-visual">
+          <div class="festival-img-block festival-img--1"></div>
+          <div class="festival-img-block festival-img--2"></div>
+          <div class="festival-stat">
+            <span class="stat-number">12</span>
+            <span class="stat-label">Chefs Internacionales</span>
+          </div>
+          <div class="festival-stat festival-stat--2">
+            <span class="stat-number">5</span>
+            <span class="stat-label">Días de Festival</span>
+          </div>
+          <div class="festival-stat festival-stat--3">
+            <span class="stat-number">40+</span>
+            <span class="stat-label">Experiencias</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Patrocinadores -->
+      <div class="sponsors-block">
+        <p class="sponsors-label">Con el apoyo de</p>
+        <ul class="sponsors-list">
+          <li>Casa Bouchon Wines</li>
+          <li>Aceites Verdeyma</li>
+          <li>Porcelanas San Marco</li>
+          <li>Hotel Gran Palacio</li>
+          <li>Ministerio de Cultura</li>
+          <li>Cámara de Comercio</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ========== SECCIÓN MULTIMEDIA / GALERÍA ========== -->
+    <section id="galeria" class="galeria">
+      <div class="section-header">
+        <p class="section-label">Galería</p>
+        <h2 class="section-title">Instantes Memorables</h2>
+        <p class="section-subtitle">Una muestra visual de lo que vivirás en Fusión Gourmet.</p>
+      </div>
+
+      <div class="gallery-grid">
+        <figure class="gallery-item gallery-item--large">
+          <div class="gallery-img gallery-img--1"></div>
+          <figcaption>Cena de Gala 2024 — Menú 12 Tiempos</figcaption>
+        </figure>
+        <figure class="gallery-item">
+          <div class="gallery-img gallery-img--2"></div>
+          <figcaption>Taller de Fermentación</figcaption>
+        </figure>
+        <figure class="gallery-item">
+          <div class="gallery-img gallery-img--3"></div>
+          <figcaption>Mercado de Productores</figcaption>
+        </figure>
+        <figure class="gallery-item">
+          <div class="gallery-img gallery-img--4"></div>
+          <figcaption>Masterclass Cocina Molecular</figcaption>
+        </figure>
+        <figure class="gallery-item gallery-item--wide">
+          <div class="gallery-img gallery-img--5"></div>
+          <figcaption>Apertura del Festival — Edición 2024</figcaption>
+        </figure>
+      </div>
+
+      <!-- Video incrustado simulado -->
+      <div class="video-section">
+        <p class="section-label">Video</p>
+        <h3>Revive la magia del año pasado</h3>
+        <div class="video-wrapper">
+          <iframe
+            src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+            title="Fusión Gourmet 2024 — Recap Oficial"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+            loading="lazy"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SECCIÓN RESERVAS / CTA ========== -->
+    <section id="contacto" class="reservas">
+      <div class="reservas-content">
+        <p class="section-label">No te quedes sin lugar</p>
+        <h2 class="reservas-title">Reserva tu experiencia<br/><em>hoy mismo</em></h2>
+        <p class="reservas-text">Las plazas son muy limitadas. Asegura tu lugar en el festival gastronómico del año y vive una experiencia que transformará tu relación con la cocina.</p>
+        <div class="reservas-form-wrapper">
+          <form class="reservas-form" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="nombre">Nombre completo</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Correo electrónico</label>
+                <input type="email" id="email" name="email" placeholder="tu@correo.com" required />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="experiencia">Experiencia de interés</label>
+                <select id="experiencia" name="experiencia">
+                  <option value="">Selecciona una opción</option>
+                  <option value="taller">Talleres Intensivos</option>
+                  <option value="gala">Cena de Gala</option>
+                  <option value="cata">Catas & Maridaje</option>
+                  <option value="mercado">Mercado Gourmet</option>
+                  <option value="pase">Pase General (5 días)</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="personas">Número de personas</label>
+                <input type="number" id="personas" name="personas" min="1" max="10" placeholder="1" />
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">Solicitar Reserva</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer id="footer" class="footer">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="logo logo--light">
+          <span class="logo-symbol">✦</span>
+          <span class="logo-text">Fusión <em>Gourmet</em></span>
+        </div>
+        <p class="footer-tagline">El festival gastronómico que celebra la cocina como arte, cultura y conexión humana.</p>
+        <!-- Redes sociales -->
+        <ul class="social-links">
+          <li><a href="#" aria-label="Instagram">Instagram</a></li>
+          <li><a href="#" aria-label="Facebook">Facebook</a></li>
+          <li><a href="#" aria-label="TikTok">TikTok</a></li>
+          <li><a href="#" aria-label="YouTube">YouTube</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Programa</h4>
+        <ul class="footer-links">
+          <li><a href="#horarios">Agenda Completa</a></li>
+          <li><a href="#chefs">Nuestros Chefs</a></li>
+          <li><a href="#contacto">Talleres & Catas</a></li>
+          <li><a href="#contacto">Cena de Gala</a></li>
+          <li><a href="#galeria">Galería</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Información</h4>
+        <ul class="footer-links">
+          <li><a href="#festival">Sobre el Festival</a></li>
+          <li><a href="#">Prensa & Media</a></li>
+          <li><a href="#">Patrocinadores</a></li>
+          <li><a href="#">Términos y Condiciones</a></li>
+          <li><a href="#">Política de Privacidad</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-contact">
+        <h4>Contacto</h4>
+        <address>
+          <p>Centro de Convenciones<br/>Barranquilla, Colombia</p>
+          <p><a href="mailto:info@fusiongourmet.co">info@fusiongourmet.co</a></p>
+          <p><a href="tel:+573001234567">+57 300 123 4567</a></p>
+        </address>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2025 Fusión Gourmet. Todos los derechos reservados.</p>
+      <p>Diseñado con <span aria-label="amor">♥</span> en Colombia</p>
+    </div>
+  </footer>
+
+  <script>
+    // Hamburger menu toggle
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.querySelector('.nav-links');
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('nav-open');
+      hamburger.classList.toggle('active');
+    });
+
+    // Close nav on link click (mobile)
+    document.querySelectorAll('.nav-links a').forEach(link => {
+      link.addEventListener('click', () => {
+        navLinks.classList.remove('nav-open');
+        hamburger.classList.remove('active');
+      });
+    });
+
+    // Sticky header shadow
+    window.addEventListener('scroll', () => {
+      const header = document.getElementById('header');
+      header.classList.toggle('scrolled', window.scrollY > 60);
+    });
+
+    // Scroll-triggered fade-in
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.classList.add('visible');
+          observer.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.12 });
+
+    document.querySelectorAll('.event-card, .chef-card, .gallery-item, .festival-stat').forEach(el => {
+      el.classList.add('fade-in');
+      observer.observe(el);
+    });
+  </script>
+
+</body>
+</html>
